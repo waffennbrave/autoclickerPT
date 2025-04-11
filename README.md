@@ -28,9 +28,7 @@ pip install -r requirements.txt
 3. Установите PyInstaller
 PyInstaller — это инструмент для создания исполняемых файлов (.exe) из Python скриптов. Чтобы установить PyInstaller, выполните команду:
 
-bash
-Копировать
-Редактировать
+
 pip install pyinstaller
 4. Соберите .exe файл с помощью PyInstaller
 После того как все зависимости установлены, вам нужно будет создать .exe файл из Python скрипта с помощью PyInstaller. Для этого выполните следующие шаги:
@@ -41,9 +39,6 @@ pip install pyinstaller
 
 В командной строке выполните следующую команду для создания .exe файла:
 
-bash
-Копировать
-Редактировать
 pyinstaller --onefile --noconsole --icon=icon.ico autoclicker.py
 Объяснение параметров:
 
@@ -55,9 +50,6 @@ pyinstaller --onefile --noconsole --icon=icon.ico autoclicker.py
 
 Пример команды с иконкой:
 
-bash
-Копировать
-Редактировать
 pyinstaller --onefile --noconsole --icon=custom_icon.ico autoclicker.py
 Где custom_icon.ico — это путь к файлу иконки. Если файл иконки находится в той же папке, что и ваш .py файл, достаточно указать только имя файла, как в примере выше.
 
