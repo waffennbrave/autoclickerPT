@@ -1,0 +1,4 @@
+pynput
+pyautogui
+pyinstaller
+psutil
